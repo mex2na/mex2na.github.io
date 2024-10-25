@@ -1,6 +1,9 @@
 <script setup>
     import photo from "../assets/images/photo_CV.jpg" 
+    import data from "../assets/data.json"
 
+    const {profile} = data
+    
     
 
 
@@ -14,12 +17,12 @@
     </div>
     
     <div>
-        <p class="text-2xl font-medium text-center">AMBININTSOA </p>
-        <p class="text-base text-center">Rodolphino Noëlardau</p>
+        <p class="text-2xl font-medium text-center">{{ profile.name }}</p>
+        <p class="text-base text-center">{{profile.lastName}}</p>
   </div>
 
     <div class="flex  px-10 mt-5">
-        <span class="text-sm text-left  pb-5 border-black border-b-2 px-6 ">Full-stack developer, passionate about Javascript but open to other technologies</span>
+        <span class="text-sm text-left  pb-5 border-black border-b-2 px-6 ">{{profile.profilDescription}}</span>
     </div>
 
 </div>
