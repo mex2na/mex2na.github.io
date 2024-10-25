@@ -5,11 +5,25 @@
              "lastName": "Rodolphino Noëlardauu",
              "profilDescription":"Developper fullstack who is a fan of Javascript but also open to another language..."
         },
-        "contacts":{
+        "coordonnees":{
             "tel": "+261 32 50 226 27",
             "email": "noelardau@gmail.com",
             "location": "Andrainjato FIANARANTSOA"
 
+        },
+        "languages":{
+            "mg":{
+                "title":"MALAGASY",
+                "level": "Native language"
+            },
+            "fr":{
+                "title": "FRENCH",
+                "level": 80
+            },
+            "eng":{
+                "title": "ENGLISH",
+                "level": 50
+            }
         }
     }
 

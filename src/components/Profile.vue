@@ -1,11 +1,7 @@
 <script setup>
     import photo from "../assets/images/photo_CV.jpg" 
-    import data from "../assets/data.json"
-
-    const {profile} = data
     
-    
-
+   import {profile} from "../assets/data.json";
 
 </script>
 <template>
