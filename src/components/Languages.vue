@@ -9,7 +9,7 @@ import {languages} from "../assets/data.json";
 
 <template>
 
-    <div id="language" class="px-5">
+    <div id="language" class="px-5 pt-3">
         
         <div class="text-xl font-bold">Languages </div>
 
@@ -27,7 +27,7 @@ import {languages} from "../assets/data.json";
 
         <div class="flex justify-between pt-3">
             <div class="textNoir font-bold">{{languages.eng.title}}</div>
-                <progress max="100" :value="languages.eng.title" class="custom-progress"></progress>
+                <progress max="100" :value="languages.eng.level" class="custom-progress"></progress>
         </div>
     </div>
 
