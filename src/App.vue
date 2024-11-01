@@ -15,7 +15,7 @@
 <div class="sm:flex ">
 
     
-    <div id="aside" class=" min-h-screen   sm:w-2/5 bg-[#F8C822]  py-4">
+    <div id="aside" class=" min-h-screen flex-col  sm:w-2/5 bg-[#F8C822]  py-4">
             <Profile/>           
             <Contacts/>
             <Languages/>

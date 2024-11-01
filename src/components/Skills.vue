@@ -8,9 +8,7 @@ import vue from "../assets/images/vuejs.jpg"
 import react from "../assets/images/reactjs.jpg"
 import tailwind from "../assets/images/tailwindcc.jpg"
 
-let skills = [{image:js, title:"JS"},{image:python, title:"Python"},{image:node, title:"nodejs"},{image:symfony, title:"Symfony"},{image:vue, title:"Vue"},{image:react, title:"React"},{image:tailwind, title:"TailwindCSS"}]
-
-
+let skills = [{image:js, title:"JS"},{image:python, title:"Python"},{image:node, title:"nodejs"},{image:symfony, title:"Symfony"},{image:vue, title:"Vue"},{image:react, title:"React"},{image:tailwind, title:"TailwindCSS"}];
 
 
 
@@ -21,8 +19,8 @@ let skills = [{image:js, title:"JS"},{image:python, title:"Python"},{image:node,
 <template>
     <div>
         <div class="text-xl font-bold text-white py-2">Programming languages and Frameworks</div>
-        <div class="flex justify-between flex-wrap">
-            <SkillItem v-for="s in skills" class="animate-pulse" :image="s.image">
+        <div class="flex flex-wrap">
+            <SkillItem v-for="s in skills" class="animate-pulse  mr-3" :image="s.image">
                 {{ s.title }}
             </SkillItem>
         </div>
