@@ -13,7 +13,7 @@
     </div>
     
     <div>
-        <p class="text-2xl font-medium text-center">{{ profile.name }}</p>
+        <p class="text-2xl font-medium text-center">{{ profile.name }} jr</p>
         <p class="text-base text-center">{{profile.lastName}}</p>
   </div>
 
